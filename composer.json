@@ -1,0 +1,24 @@
+{
+    "name": "handysolver/yii2-sortable-list-view-widget",
+    "description": "Sortable modification of standard Yii2 ListView widget",
+    "keywords": ["yii2", "sortable", "listview", "list", "widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/handysolver/yii2-sortable-list-view-widget",
+        "issues": "https://github.com/handysolver/yii2-sortable-list-view-widget/issues"
+    },
+    "authors": [
+        {
+            "name": "Handysolver",
+            "homepage": "https://github.com/handysolver"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-jui": "*"
+    },
+    "autoload": {
+        "psr-4": {"handysolver\\sortablelist\\": ""}
+    }
+}
