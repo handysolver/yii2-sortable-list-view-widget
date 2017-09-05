@@ -2,6 +2,11 @@ Sortable ListView Widget for Yii2
 ========================
 Sortable modification of standard Yii2 ListView widget.
 
+Credits
+------------
+This library has been picked up from [himiklab's gridview sortable](https://github.com/himiklab/yii2-sortable-grid-view-widget) and has been customised to work with ListView. Great work himiklab!
+
+
 Installation
 ------------
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).

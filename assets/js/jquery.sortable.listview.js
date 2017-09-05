@@ -10,7 +10,7 @@
         var widget = this;
 
         var initialIndex = [];
-        widget.children.each(function () {
+        widget.children().each(function () {
             initialIndex.push($(this).data('key'));
         });
 
@@ -19,7 +19,7 @@
             update: function () {
                 var items = {};
                 var i = 0;
-                widget.children.each(function () {
+                widget.children().each(function () {
                     var currentKey = $(this).data('key');
                     if (initialIndex[i] != currentKey) {
                         items[currentKey] = initialIndex[i];

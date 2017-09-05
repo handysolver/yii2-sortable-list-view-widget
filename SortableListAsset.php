@@ -21,7 +21,8 @@ class SortableListAsset extends AssetBundle
         'yii\jui\JuiAsset',
     ];
 
-    public $publishOptions = [
+    /*enable below in development mode so that js file changes reflect*/
+    /*public $publishOptions = [
         'forceCopy'=>true,
-    ];
+    ];*/
 }
